@@ -21,6 +21,7 @@ const Navbar = () => {
         <Link to="/cart" style={styles.link}>Cart</Link>
         <Link to="/learn" style={styles.link}>Learn</Link>
         <Link to="/useEffect" style={styles.link}>Useffcet</Link>
+        <Link to="/usestate" style={styles.link}>Usestate</Link>
         <Link to="/file" style={styles.link}>file</Link>
         <Link to="/debounce" style={styles.link}>Debounce</Link>
         <Link to="/stopwatch" style={styles.link}>Stopwatch</Link>

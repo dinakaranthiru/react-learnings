@@ -20,8 +20,8 @@ import Newreact from "./Newreact";
 import DebouncedSearch from "./DebouncedSearch";
 import Stopwatch from "./Stopwatch";
 import Newq from "./Newq";
-import UseState from "./Hooks/UseState";
 import USEEFFECT from "./Hooks/USEEFFECT";
+import UseState from "./Hooks/UseState";
 
 const App = () => {
   return (
@@ -30,7 +30,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Learning />} />
         <Route path="/api" element={<Apifetch />} />
-        <Route path="/new" element={<UseState />} />
+        <Route path="/usestate" element={<UseState />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/props" element={<Exampleprops name="Sai" age={22} />} />
         <Route path="/pagination" element={<PaginationExample />} />
