@@ -6,7 +6,11 @@ const incr = ()=>{
     setCount(count +1)
     }
 const dec = () =>{
-    setCount(count-1)
+    if(count>0){
+        setCount(count-1)
+    }else{
+        setCount(count=0)
+    }
 }    
 const reset = () =>{
     setCount(count*0)

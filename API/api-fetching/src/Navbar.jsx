@@ -7,7 +7,7 @@ const Navbar = () => {
 
       <div style={styles.links}>
         <Link to="/" style={styles.link}>Home</Link>
-        <Link to="/new" style={styles.link}>New</Link>
+        <Link to="/props" style={styles.link}>Props</Link>
         <Link to="/api" style={styles.link}>API</Link>
         <Link to="/pagination" style={styles.link}>Pagination</Link>
         <Link to="/counter" style={styles.link}>Counter</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="/tabs" style={styles.link}>Tabs</Link>
         <Link to="/cart" style={styles.link}>Cart</Link>
         <Link to="/learn" style={styles.link}>Learn</Link>
-        <Link to="/newreact" style={styles.link}>new</Link>
+        <Link to="/useEffect" style={styles.link}>Useffcet</Link>
         <Link to="/file" style={styles.link}>file</Link>
         <Link to="/debounce" style={styles.link}>Debounce</Link>
         <Link to="/stopwatch" style={styles.link}>Stopwatch</Link>

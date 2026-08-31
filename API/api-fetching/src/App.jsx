@@ -21,6 +21,7 @@ import DebouncedSearch from "./DebouncedSearch";
 import Stopwatch from "./Stopwatch";
 import Newq from "./Newq";
 import UseState from "./Hooks/UseState";
+import USEEFFECT from "./Hooks/USEEFFECT";
 
 const App = () => {
   return (
@@ -43,7 +44,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/file" element={<FileExplorer />} />
         <Route path="/learn" element={<Learn/>}></Route>
-        <Route path="/newreact" element={<Newreact />} />
+        <Route path="/useEffect" element={<USEEFFECT />} />
         <Route path="/debounce" element={<DebouncedSearch />} />
         <Route path="/stopwatch" element={<Stopwatch />} />
        <Route path="*" element={<Navigate to='/' replace={true} />} />
