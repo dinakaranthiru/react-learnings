@@ -15,11 +15,8 @@ import Navbar from "./Navbar";
 import Tabs from "./Tabs";
 import Cart from "./Cart";
 import FileExplorer from "./FileExplorer";
-import Learn from "./Learn";
-import Newreact from "./Newreact";
 import DebouncedSearch from "./DebouncedSearch";
 import Stopwatch from "./Stopwatch";
-import Newq from "./Newq";
 import USEEFFECT from "./Hooks/USEEFFECT";
 import UseState from "./Hooks/UseState";
 import Props from "./Hooks/Props";
@@ -36,7 +33,7 @@ const App = () => {
         <Route path="/api" element={<Apifetch />} />
         <Route path="/usestate" element={<UseState />} />
         <Route path="/counter" element={<Counter />} />
-        <Route path="/props" element={<Exampleprops name="Sai" age={22} />} />
+        <Route path="/example-props" element={<Exampleprops name="Sai" age={22} />} />
         <Route path="/pagination" element={<PaginationExample />} />
         <Route path="/search" element={<Search />} />
         <Route path="/filter" element={<SearchFilter />} />
@@ -47,7 +44,6 @@ const App = () => {
         <Route path="/tabs" element={<Tabs />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/file" element={<FileExplorer />} />
-        <Route path="/learn" element={<Learn/>}></Route>
         <Route path="/useEffect" element={<USEEFFECT />} />
         <Route path="/debounce" element={<DebouncedSearch />} />
         <Route path="/stopwatch" element={<Stopwatch />} />
