@@ -27,7 +27,7 @@ const UseState = () =>{
         if(count > 0){
             setCount(count -1)
         }else{
-            setCount(count =0)
+            setCount(0)
         }
     }
     function Reset(){
