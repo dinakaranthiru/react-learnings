@@ -18,7 +18,6 @@ function DebouncedSearch() {
   // API call on debounced value
   useEffect(() => {
     if (!debouncedQuery.trim()) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setResults([]);
       return;
     }
