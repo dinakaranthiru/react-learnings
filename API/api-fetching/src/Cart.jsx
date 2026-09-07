@@ -1,10 +1,17 @@
 import { useState } from "react";
 
 function Cart() {
-  const products = ["Apple", "Banana", "Orange","PineApple"];
+  const products = ["Apple", "Banana", "Orange", "PineApple"];
   const [cart, setCart] = useState([]);
 
   const addToCart = (item) => setCart([...cart, item]);
+  const removeCart = (indexToRemove) => {
+    setCart(cart.filter((_, index) => index !== indexToRemove));
+  };
+
+  const remove = (indexToRemove) =>{
+    setCart(cart.filter((_,index)=>index !==indexToRemove))
+  }
 
   return (
     <div>
@@ -17,7 +24,13 @@ function Cart() {
         ))}
       </ul>
       <h3>Cart: {cart.length} items</h3>
-      <ul>{cart.map((item, i) => <li key={i}>{item}</li>)}</ul>
+      <ul>
+        {cart.map((item, i) => (
+          <li key={i}>
+            {item}<button onClick={() => remove(i)}>Remove</button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
