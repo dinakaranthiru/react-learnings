@@ -23,6 +23,7 @@ import Newq from "./Newq";
 import USEEFFECT from "./Hooks/USEEFFECT";
 import UseState from "./Hooks/UseState";
 import Props from "./Hooks/Props";
+import EventHandling from "./EventHandling";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Learning />} />
+        <Route path="/event" element={<EventHandling />} />
         <Route path="/props" element={<Props name='Dina' age={23} />} />
         <Route path="/api" element={<Apifetch />} />
         <Route path="/usestate" element={<UseState />} />

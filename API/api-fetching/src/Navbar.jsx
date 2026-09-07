@@ -7,6 +7,7 @@ const Navbar = () => {
 
       <div style={styles.links}>
         <Link to="/" style={styles.link}>Home</Link>
+        <Link to="/event" style={styles.link}>Event</Link>
         <Link to="/props" style={styles.link}>Props</Link>
         <Link to="/api" style={styles.link}>API</Link>
         <Link to="/pagination" style={styles.link}>Pagination</Link>
