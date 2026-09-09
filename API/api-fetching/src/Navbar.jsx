@@ -22,7 +22,7 @@ const NAV_ITEMS = [
   { path: "/pagination", label: "Pagination", category: "data", icon: "📑" },
   { path: "/todo", label: "Todo", category: "data", icon: "✅" },
   { path: "/cart", label: "Cart", category: "data", icon: "🛒" },
-  { path: "/learn", label: "Learn", category: "data", icon: "💡" },
+  { path: "/example-props", label: "Example Props", category: "hooks", icon: "🪪" },
 ];
 
 const CATEGORIES = [
